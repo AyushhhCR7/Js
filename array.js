@@ -46,3 +46,7 @@ const person={
 }
 console.log(this.person);
 console.log(person.firstName);
+
+//more functions..
+const player= Object.create(person);
+player.firstName="AYUSH KUMAR";
