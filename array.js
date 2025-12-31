@@ -30,10 +30,19 @@
 
 
 
-//khela hoga ab arrays ke saath...
+//khela hoga ab OBJECTS ke saath...
 const a={
     name:"ayush",
     age:19,
     location:"kolkata"
 }
 console.log(a);
+
+const person={
+    firstName: "ayush",
+    lastName: "kumar",
+    age: 20,
+    eyeColor: "black"
+}
+console.log(this.person);
+console.log(person.firstName);
