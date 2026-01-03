@@ -58,3 +58,14 @@ Object.assign(player, person); //person ke sare properties player me copy kar de
 console.log(player);
 const obj=Object.fromEntries(Object.entries(player));     //ye bhi copy kar dega ek object se dusre me
 console.log(obj);
+
+const user = {
+  name: "Ayush",
+  age: 20,
+  city: "Delhi"
+};
+
+const { name, ...rest } = user;
+
+// console.log(name); 
+console.log(rest);
