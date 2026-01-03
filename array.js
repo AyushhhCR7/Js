@@ -50,3 +50,11 @@ console.log(person.firstName);
 //more functions..
 const player= Object.create(person);
 player.firstName="AYUSH KUMAR";
+// console.log(player.firstName);
+// console.log(player.age);
+// console.log(player);
+Object.assign(player, person); //person ke sare properties player me copy kar dega
+// console.log(person);
+console.log(player);
+const obj=Object.fromEntries(Object.entries(player));     //ye bhi copy kar dega ek object se dusre me
+console.log(obj);
